@@ -59,6 +59,7 @@
     <Compile Include="Assets\Script\playerController.cs" />
     <Compile Include="Assets\Script\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Script\playerRaycast.cs" />
+    <Compile Include="Assets\Script\Enemy\EnemyBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

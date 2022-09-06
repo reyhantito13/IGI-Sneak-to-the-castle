@@ -72,6 +72,7 @@ public class PlayerMovement : MonoBehaviour
 
     void HorizontalMove()
     {
+        float playerInput = Input.GetAxisRaw("Horizontal");
         if (Input.GetButton("Horizontal"))
         {
             playerRb.velocity = new Vector3(movementSpeed * move, playerRb.velocity.y, 0);
